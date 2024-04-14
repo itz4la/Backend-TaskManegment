@@ -1,0 +1,26 @@
+{
+  "name": "backend-taskmanegment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itz4la/Backend-TaskManegment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itz4la/Backend-TaskManegment/issues"
+  },
+  "homepage": "https://github.com/itz4la/Backend-TaskManegment#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0"
+  }
+}
