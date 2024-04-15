@@ -10,6 +10,10 @@ app.use(express.json())
 // DB Connection 
 connectDB()
 
+// Routes config
+app.use('/users', require('./routes/userManegmentRoutes'))
+
+
 app.listen(port, ()=>{
     console.log('app started and listening to port :' + port)
 })
